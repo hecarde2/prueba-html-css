@@ -62,7 +62,10 @@ h1{
     object-fit:cover;
 }
 .text-about{
-    text-align: justify;
+    text-align: center;
+}
+.influences{
+    text-align: left;
 }
 .media__grid :hover{
     width:100%;
@@ -88,8 +91,11 @@ body {
 }
 
 img {
-    max-width: 100%;
-    display: block;
+    max-width: 50%;
+    display: flex;
+    margin: auto;
+    
+   
 }
 
 a {
@@ -107,8 +113,9 @@ section {
     margin: 3rem 0;
 }
 
-h1, h2, h3 {
+h2, h3 {
     margin-bottom: 1rem;
+    color: crimson;
 }
 form{
 
@@ -124,6 +131,13 @@ text-align: center;
     padding: auto;
 
 }
+body {
+    border: 50px solid crimson;
+    min-height: 100vh; 
+    margin: 0;        
+    box-sizing: border-box; 
+}
+
 
 /* Puedes usar esto si quieres centrar contenido */
 /* .container {
@@ -178,5 +192,20 @@ grid-template-columns:1fr;
 .galeria{
 grid-template-columns:repeat(2,1fr);
 }
+.contenedorup{
+ display: inline-block;
+}
+}
 
+@media(max-width:)
+ body{
+  font-size: 16px;
+}
+.contenedor {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+.contenedorup{
+    font-size: 16px;
 }
