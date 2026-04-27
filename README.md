@@ -9,13 +9,13 @@ based on html and css.
 
 ## 🎯 WHAT DOES THE PAGE HAVE?
 
-***semantic HTML5**.
-***CSS3 styles** 
-***responsive design** 
+-semantic HTML5
+-CSS3 styles
+-responsive design
   * Desktop (>1024px)
   * Mobile
-***Flexbox and/or Grid** 
-***clean, readable, and well-organized**.
+-Flexbox and/or Grid
+-clean, readable, and well-organized.
 
 ---
 
